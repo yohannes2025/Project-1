@@ -18,3 +18,15 @@ h6 {
   font-family: var(--primary-font);
   color: var(--primary-color);
 }
+
+.above-menu {
+    height: 550px !important;
+    background-color: yellow !important;
+    background-size: cover;
+  }
+  
+  .above-menu-content {
+    padding: 10px;
+    margin-top: 250px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
