@@ -54,6 +54,110 @@
       </div>
     </nav>
 
+    <!-- Main Section-->
+    <main>
+      <section class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-6">
+            <div class="container">
+              <h2 class="display-1 fw-bold fs-1">Send Us a Message</h2>
+              <form id="contact-form">
+                <div class="mb-3">
+                  <label for="firstName" class="form-label display-5 fs-5"
+                    >First Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="Enter your first name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="lastName" class="form-label display-5 fs-5"
+                    >Last Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Enter your last name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="subject" class="form-label display-5 fs-5"
+                    >Subject:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Enter the subject"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label display-5 fs-5"
+                    >Message:</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Type your message here"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn">Send Us</button>
+              </form >
+              <!--Thank you message -->
+              <div id="welcome-message" class="display-5 mt-4 alert alert-success" style="display: none;">
+                <h4 class="display-5 mt-2 fw-bold fs-5">Thank you</h4>
+                <p class="display-5  fs-5">We've received your message, and will get back to you as soon as possible.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-6">
+            <div class="container my-5">
+              <div class="row" justify-content-center>
+                <h2 class="text-center mb-4 display-1 fw-bold fs-1"">Contact Us</h2>
+                <div class="row">
+                  <!-- Map Section -->
+                  <div class="col-12 mb-3 text-center">
+                    <div id="map ">
+                      <!-- Embed Google Map -->
+                      <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19538.865865515953!2d38.9196253!3d15.3228767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164d823a813d4c67%3A0xe43b842f9e27b8d7!2sAsmara%2C%20Eritrea!5e0!3m2!1sen!2sde!4v1698926458023!5m2!1sen!2sde"
+                      width="100%"
+                      height="100%"
+                      style="border:0;"
+                      allowfullscreen=""
+                      loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    
+                    </div>
+                  </div>
+                  <!-- Mailing Address Section -->
+                  <div class="col-12 mb-3 text-center">
+                    <h4 class="display-4 fw-bold fs-4">Mailing Address</h4>
+                    <p class="display-6 fw-bold fs-6">Our Office</p>
+                    <p class="display-6 fs-6">
+                      123 Example Street<br />
+                      Berlin, Germany 10115
+                    </p>
+                    <p class="display-6 fs-6"><strong>Email:</strong> contact@example.com</p>
+                    <p class="display-6 fs-6"><strong>Phone:</strong> +49 30 12345678</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Font-awesome link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
