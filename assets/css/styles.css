@@ -30,3 +30,6 @@ h6 {
     margin-top: 250px;
     background-color: rgba(0, 0, 0, 0.6);
   }
+  #above-menu-index {
+    background-image: url("../images/asmara-main-street.webp");
+  }
