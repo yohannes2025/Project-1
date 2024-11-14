@@ -34,4 +34,11 @@ h6 {
     background-image: url("../images/asmara-main-street.webp");
   }
 
-  
+  #navbar {
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    transition: 2s ease-in-out;
+  }
+  #navbar:hover {
+    color: var(--secondary-color);
+  }
