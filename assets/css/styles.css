@@ -24,15 +24,28 @@ h6 {
     background-color: yellow !important;
     background-size: cover;
   }
+
+  #above-menu-index {
+    background-image: url("../images/asmara-main-street.webp");
+  }
   
+  #above-menu-index {
+  background-image: url("../images/asmara-main-street.webp");
+}
+
+#above-menu-history {
+  background-image: url("../images/asmara-old-picture.webp");
+}
+
+#above-menu-travel {
+  background-image: url("../images/camel-for-tourists.webp");
+}
   .above-menu-content {
     padding: 10px;
     margin-top: 250px;
     background-color: rgba(0, 0, 0, 0.6);
   }
-  #above-menu-index {
-    background-image: url("../images/asmara-main-street.webp");
-  }
+  
 
   #navbar {
     background-color: var(--primary-color);
@@ -41,4 +54,9 @@ h6 {
   }
   #navbar:hover {
     color: var(--secondary-color);
+  }
+
+  main .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
