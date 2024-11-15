@@ -83,7 +83,7 @@ To get started with the project:
 1. [Clone this repository:] [https://github.com/yohannes2025/Project-1-Asmara-s-History-Website/tree/main]
 2. Open the project in your code editor.
 3. Launch the website on a local server or in a browser to view and edit content.
-4. [View the Design PDF](assets/project-1-design.pdf)
+4. [View the Design PDF](../docs/project-1-design.pdf)
 
 ## Contributing
 Contributions to enhance Asmara's History Website are welcome. Feel free to submit issues, suggest improvements, or open pull requests.
