@@ -100,11 +100,8 @@ h6 {
 
 #map-of-Asmara {
   width: 90%;
-  height: 365;
-  border: 0;
-  allowfullscreen: true;
-  loading: lazy;
-  referrerpolicy: "no-referrer-when-downgrade";
+  height: 365px;
+  border: 0; 
   border: 0;
 }
 
