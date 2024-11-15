@@ -85,10 +85,11 @@ h6 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
   }
 
   .nav-item {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;    
   }
 
   .social-links {
